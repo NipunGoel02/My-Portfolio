@@ -134,8 +134,8 @@ p{
 }
 @media   only screen and (max-width: 628px) {
     .content{
+        margin-left: 0px ;
         margin-top: 300px;
-        margin-left: 300;
         flex-direction: column;
     }
 
@@ -149,13 +149,9 @@ p{
         flex-direction: column;
     }
     ol li{
-        background-color: ;
         width: 100%;
     }
-    .image{
-         margin-left: 300px;
-
-    }
+    
     .nipun{
         text-align: center;
         margin-left: 40px;
