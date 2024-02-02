@@ -134,23 +134,30 @@ p{
 }
 @media   only screen and (max-width: 628px) {
     .content{
+        margin-top: 300px;
         margin-left: 300;
         flex-direction: column;
     }
 
     .nav{
+        background-color: unset;
         flex-direction: column;
 
     }
     .nav ol{
-        background-color: lightblue;
+        text-align: center;
         flex-direction: column;
     }
     ol li{
+        background-color: ;
         width: 100%;
     }
     .image{
          margin-left: 300px;
 
+    }
+    .nipun{
+        text-align: center;
+        margin-left: 40px;
     }
 }
