@@ -139,14 +139,14 @@ p{
     }
 
     .nav{
-        width: 713px;
+        width: px;
 
     }
     .nav ol{
         width: 490px;
     }
     .image{
-        align-items: center;
+         margin-left: 300px;
 
     }
 }
