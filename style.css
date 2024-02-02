@@ -11,7 +11,7 @@ body{
      list-style-type: none ;
 }
 .nav ol  {
-    display: inline-flex ;
+    display: flex ;
     justify-content: center;
     align-items: center;
     list-style-type: none;
@@ -139,11 +139,15 @@ p{
     }
 
     .nav{
-        width: 300px;
+        flex-direction: column;
 
     }
     .nav ol{
-        width: 490px;
+        background-color: lightblue;
+        flex-direction: column;
+    }
+    ol li{
+        width: 100%;
     }
     .image{
          margin-left: 300px;
