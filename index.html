@@ -9,27 +9,32 @@
 </head>
 
 <body>
-    <div class="nav">
-         <div class="nipun">NIPUN </div>
-        <li>
-            <ol>
-                <li>About me</li>
-                <li><a href="https://www.linkedin.com/in/nipun-goel-a63291292">Linkedin</a></li>
-                <li><a href="https://www.instagram.com/nipungoel02?igsh=MWp3Nm13bm85ZHY0NA==">Instagram</a></li>
-            </ol>
-        </li>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="active">NIPUN GOEL</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="#news">About Me </a>
+            <a href="https://www.linkedin.com/in/nipun-goel-a63291292">Linkedin</a>
+            <a href="https://www.instagram.com/nipungoel02?igsh=MWp3Nm13bm85ZHY0NA==">Instagram </a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
-
-
     <div class="content">
 
         <div class="niz">
             <p>HI👋</p>
             <div class="nip">
                 <span>I AM</span>
-                <span class="n">NIPUN  </span>
+                <span class="n">NIPUN </span>
                 <span class="i ">GOEL </span>
-            
+
             </div>
         </div>
 
@@ -40,7 +45,9 @@
     </div>
     <div class="about">
         <h1>About me </h1>
-        <p>I am a student of B.Tech First year at KIET GROUP OF INSTITUTIONS. I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time.Currently I am Learning WEB DEVELOPMENT
+        <p>I am a student of B.Tech First year at KIET GROUP OF INSTITUTIONS. I am outgoing, dedicated, and open-minded.
+            I get across to people and adjust to changes with ease. I believe that a person should work on developing
+            their professional skills and learning new things all the time.Currently I am Learning WEB DEVELOPMENT
         </p>
     </div>
     <div class="qualify">
@@ -50,6 +57,8 @@
             <li>Passed class 10 from cbse board with 90.2%</li>
         </ul>
     </div>
+    <script src="project.js"></script>
+
 </body>
 
 </html>
